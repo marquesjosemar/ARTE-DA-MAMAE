@@ -11,7 +11,6 @@
     background-position: center bottom;
     background-repeat: no-repeat;
   }  
-
  
   
 
@@ -23,11 +22,12 @@
         padding: 50px 0px 0px 0px;
         justify-content: center;
         align-items: normal;
-        margin: auto;
-       
+        margin: auto;  
     }
 
-    
+    .col >img {
+      height: 200px;
+    }
 
     #icones {
       text-align: center;
