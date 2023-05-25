@@ -1,0 +1,71 @@
+@media screen and (min-width:200px) and (max-width:992px){
+
+   
+
+    #page-header {
+        display: grid;
+    }
+    
+    
+    #page-header > img {
+        margin-left: 17px;
+        
+    }
+    .col {
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .alink {
+        width: 100vw;
+        text-decoration: none;
+        justify-content: stretch;
+        
+        
+    }
+
+  .col > img {
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+  }  
+
+
+  .caixas{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .itens img {
+    flex-basis: auto;
+    height: 100px;
+    width: 100px;
+  }
+
+  article {
+    
+    height: 700px; 
+    margin-bottom: 50px;
+  }
+
+  article > h1 {
+    
+    
+    margin-left: 15%;
+   
+  }
+
+  footer {
+    height: 200px;
+    background-color: blue;
+    color: aqua;
+    font-size: smaller;
+  }
+
+  footer > i{
+    margin-left: 20%;
+  }
+}
