@@ -1,6 +1,13 @@
 @media screen and (min-width:200px) and (max-width:992px){
 
-   
+  #cabecalho{
+    background-image: url(images/pexels-anete-lusina-4792084.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    width: 100vh;
+    
+}
 
     #page-header {
         display: grid;
