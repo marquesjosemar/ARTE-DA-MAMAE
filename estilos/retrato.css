@@ -1,29 +1,54 @@
-@media screen and (min-width:400px) and (max-width:992px){
+@media screen and (min-width:200px) and (max-width:992px){
   
-  body {
-    margin: 0;
-    padding: 0;
+  *{
+    margin: 0px;
+    padding: 0px;
   }
   
-  #cabecalho {
-    background-image: url(images/img01.jpg);
-  }
+  #page-header {
+    background-image: url(../images/img01.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }  
 
-    #page-header {
-        
-    }
-    
-    
-    
-    .col {
-        padding: 15px;
+  
+
+  .nav-link {
+    font-style: oblique;
+    background-color: rgba(165, 81, 42, 0.164);
+  }
+  .col {
+        padding: 50px;
         justify-content: center;
+        align-items: flex-end;
+        margin: auto;
     }
 
-    .alink {
-        
-        text-decoration: none;
+    
+
+    #icones {
+      text-align: center;
+      justify-content: center;
     }
+
+    .col > urs {
+      height: 50%;
+      width: 50%;
+    }
+
+    .row > a {
+      width: 100vw;
+      text-decoration: none;
+      font-size: 1.4em;
+      
+  }
+
+    .alink{
+      width: 99.8vw;
+      text-decoration: none;
+      font-size: 2.8em;
+  }
 
   .col > img {
     justify-content: center;
@@ -44,18 +69,16 @@
     flex-basis: auto;
     height: 100px;
     width: 100px;
+    align-items: center;
+    justify-content: center;
   }
 
-  article {
-    
-    height: 700px; 
-    margin-bottom: 50px;
-  }
+  
 
   article > h1 {
     
     
-    margin-left: 15%;
+    margin-left: 20%;
    
   }
 
@@ -66,7 +89,5 @@
     font-size: smaller;
   }
 
-  footer > i{
-    margin-left: 20%;
-  }
+  
 }
