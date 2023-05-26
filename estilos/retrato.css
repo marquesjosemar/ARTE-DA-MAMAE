@@ -1,9 +1,6 @@
 @media screen and (min-width:170px) and (max-width:992px){
   
-  *{
-    margin: 0px;
-    padding: 0px;
-  }
+  
   
   #page-header {
     background-image: url(../images/img01.jpg);
@@ -12,31 +9,63 @@
     background-repeat: no-repeat;
   }  
  
+  #txt1 {
+    
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
   
+  #txt2 {
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+  #txt3 {
+    height: 800px;
+    
+  }
+
+  #txt4{
+    height: 660px;
+  }
+
+  .col > img {
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #confira {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    padding-top: 20px;
+  }
 
   .nav-link {
     font-style: oblique;
     background-color: rgba(165, 81, 42, 0.164);
   }
-  .col {
-        padding: 50px 0px 0px 0px;
-        justify-content: center;
-        align-items: normal;
-        margin: auto;  
-    }
 
-    .col >img {
-      height: 200px;
-    }
+    
 
     #icones {
       text-align: center;
       justify-content: center;
     }
 
+    
+
     #urs > img {
       height: 500px;
-      width: 450px;
+      width: 370px;
       justify-content: center;
     }
 
@@ -53,11 +82,7 @@
       font-size: 2.8em;
   }
 
-  .col > img {
-    justify-content: center;
-    height: 450px;
-    width: 350px;
-  }  
+    
 
 
   .caixas{
@@ -85,12 +110,7 @@
    
   }
 
-  footer {
-    height: 200px;
-    background-color: blue;
-    color: aqua;
-    font-size: smaller;
-  }
+  
 
   
 }
