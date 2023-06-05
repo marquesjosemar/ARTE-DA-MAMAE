@@ -12,9 +12,7 @@
     width: 100vw;
   }  
 
-  .container {
-    padding-top: 40px;
-  }
+ 
 
   .button {
     width: 100vw;
@@ -55,6 +53,7 @@
 
   #txt3 {
     height: auto;
+    width: 100vw;
     
   }
 
@@ -105,6 +104,7 @@
     #icones {
       text-align: center;
       justify-content: center;
+      width: 100vw;
     }
 
     
@@ -128,7 +128,7 @@
   }
 
     .alink{
-      width: 99.7vw;
+      width: 100vw;
       text-decoration: none;
       font-size: 2.8em;
   }
@@ -139,7 +139,7 @@
   .caixas{
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 0px;
     justify-content: space-around;
     gap: 20px;
   }
