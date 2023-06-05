@@ -1,56 +1,84 @@
 @media screen and (min-width:170px) and (max-width:992px){
   
   
-  
+  cabecalho {
+    width: 100vw;
+  }
   #page-header {
     background-image: url(../images/img01.jpg);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
+    width: 100vw;
   }  
 
   .container {
     padding-top: 40px;
   }
+
+  .button {
+    width: 100vw;
+    height: 50px;
+    background-image: linear-gradient(rgb(255, 128, 8), rgb(197, 35, 7));
+    border: 3px;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(38, 59, 38);
+    transition-duration: .3s;
+    font-size: .5em;
+   
+  }
  
   #txt1 {
     
     height: auto;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     text-align: justify;
     margin: 0 auto;
-    display: flex;
-    
-    
+    display: flex; 
   }
   
   #txt2 {
     height: 900px;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
     
     
   }
 
   #txt3 {
-    height: 900px;
+    height: auto;
     
   }
 
   #txt4{
     
+    height: auto;
+    object-fit: cover;
+    text-align: justify;
+    margin: 0 auto;
+    display: flex;
+    object-position: left;
+    justify-content: left;
+    width: 100vw;
     
-    height: 1000px;
   }
 
   img {
     object-fit: cover;
-    object-position: left;
-    justify-content: center;
+    text-align: justify;
     margin: 0 auto;
-    height: auto;
-    border-radius: 35px;
+    display: flex;
+  
+    
+   
     
   }
 
@@ -86,6 +114,7 @@
       object-fit: contain;
       object-position: left;
       justify-content: center;
+      height: auto;
     }
 
     .row {
@@ -138,7 +167,11 @@
     justify-content: left;
     margin: 0 auto;
     height: 500px;
+    width: auto;
   }
-
+  
+  #futer {
+    width: auto;
+  }
   
 }
