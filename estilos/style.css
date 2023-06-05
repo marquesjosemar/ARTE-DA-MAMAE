@@ -3,15 +3,17 @@
 @import url('https://fonts.googleapis.com/css2? family= Ubuntu & display=swap');
 
 
-html,body {
-  margin: 0;
-  padding: 0;
+
+
+#cabecalho {
+    display: grid;
+    grid-auto-rows: auto;
+    
 }
 
-
 #page-header{
-    background-image: url(images/img01.jpg);
-    background-size: cover;
+    background-image: url(../images/img01.jpg);
+    background-position: cover;
     
 }
 
@@ -27,7 +29,8 @@ html,body {
 .container {
     font-size: 2em;
     text-align: center;
-    height: 200px;
+    margin: 20px;
+    
 }
 
 #lugarCerto{
@@ -76,10 +79,10 @@ html,body {
   }
   
 
-.col img {
+.col > img {
     border-radius: 35px;
     display: flex;
-    justify-content: flex-start;
+    
 }
 #amigurumi-ursinhos{
         background-color: rgba(190, 119, 119, 0.76);
@@ -89,20 +92,35 @@ html,body {
 
 #icones {
     background-color: #bba5e5;
+    color: #12147a
 
 }
 
 .geral > itens{
     height: 50px;
     width: 50px;
+    
+    
 }
 
 .caixas {
     border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+    
+}
+
+.itens{
+    display: flex;
+    height: 200px;
+    width: auto;
+    
 }
 
 .alink{
-    width: 100vw;
+    width: 100%;
     text-decoration: none;
     font-size: 2.8em;
 }
