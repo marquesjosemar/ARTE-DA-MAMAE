@@ -1,10 +1,11 @@
 @media screen and (min-width:200px) and (max-width:992px){
+ 
   html, body {
-    margin: 0 auto;
-    padding: 0%;
+    margin: auto;
+    padding: 0;
+    width: 100vw;
   }
 
-  
   
   #cabecalho {
     
@@ -23,6 +24,14 @@
     display: none;
 }
 
+.container {
+    font-size: 2em;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    
+}
   .button {
     width: 100vw;
     height: 50px;
@@ -46,14 +55,17 @@
     
     height: auto;
     width: 100vw;
-    object-fit: cover;
-    text-align: justify;
-    margin: 0 auto;
-    display: flex; 
+    text-justify: auto;
+  }
+
+  .txt {
+
+    text-justify: auto;
+    height: auto;
   }
   
   #txt2 {
-    height: 900px;
+    height: auto;
     width: 100vw;
     object-fit: cover;
     
@@ -84,16 +96,18 @@
     text-align: justify;
     margin: 0 auto;
     display: flex;
-  
     
-   
-    
+  }
+
+  #abel {
+    width:100%;
   }
 
   #confira > img{
     width: 100%;
     height: auto;
     justify-content: center;
+    display: flex;
   }
 
   .annie {
@@ -101,6 +115,7 @@
     object-fit: cover;
     object-position: center;
     justify-content: center;
+    width: 100%;
   }
 
   .nav-link {
@@ -128,12 +143,15 @@
     }
 
     .row {
-      display: grid;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     height: auto;
     }
     .row > a {
       width: 100vw;
       text-decoration: none;
-      font-size: 1.4em;
+      font-size: 1.3em;
       
   }
 
@@ -152,14 +170,17 @@
     padding: 0px;
     justify-content: space-around;
     gap: 20px;
+    height: auto;
+    width: auto;
   }
 
   .itens img {
     flex-basis: auto;
     height: 100px;
-    width: 100px;
+    width: auto;
     align-items: center;
     justify-content: center;
+    padding-top: 40%;
   }
 
   
@@ -171,6 +192,11 @@
    
   }
 
+  .confiraecarrossel {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
   #carousel-images{
     object-fit: cover;
     object-position: left;
