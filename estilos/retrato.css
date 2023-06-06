@@ -1,8 +1,10 @@
 @media screen and (min-width:420px) and (max-width:992px){
   
   
-  cabecalho {
+  #cabecalho {
     width: 100vw;
+    margin: 0 auto;
+    padding: 0;
   }
   #page-header {
     background-image: url(../images/img01.jpg);
@@ -12,7 +14,9 @@
     width: 100vw;
   }  
 
- 
+  #inicial {
+    display: none;
+}
 
   .button {
     width: 100vw;

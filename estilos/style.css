@@ -14,7 +14,12 @@
 #page-header{
     background-image: url(../images/img01.jpg);
     background-position: cover;
+    background-size: cover;
     
+}
+
+#inicial {
+    display: none;
 }
 
 #txt1{
